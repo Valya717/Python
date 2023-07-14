@@ -21,7 +21,7 @@
 # 2 2
 #     4
 def sum (a,b):
-    if a>b:
+    if a>=b:
         if b==0:
             return a
         return sum(a+1, b-1)
