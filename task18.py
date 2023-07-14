@@ -55,7 +55,3 @@ else:
             print(f'Числа{min_to_x, max_to_x} ближе всех к {x}')
         else:
             print(f'Число {max_to_x} ближе всех к {x}' if (max_to_x !=0) and (max_to_x - x) < (x - min_to_x) else f'Число {min_to_x} ближе всех к {x}')
-
-
-
-
