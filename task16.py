@@ -15,14 +15,3 @@ for i in range(n):
 print(f"Число {x} не встречается" if count == 0 else f'Число {x} встерчается {count} раз')
 
 
-
-# import typing
-
-
-# numbers = [int(input()) for _ in range(int(input('Enter a number: ')))]
-# X = int(input("Введите искомое число:"))
-
-# result = numbers.count(X)
-
-# print(f'The number {X} occurs in numbers {result} times.')
-# print(f'Numbers list: {numbers}.')
