@@ -49,8 +49,9 @@ for i in range (n):
         result  = data[i]+data[i+1]+data[0]
     elif i == n-1:
         result  = data[i]+data[0]+data[1]
-        if result > max:
+    if result > max:
         max = result
+    print(result)
 
 print (data)
 print (max)
